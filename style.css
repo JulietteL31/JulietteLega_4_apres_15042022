@@ -699,7 +699,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    /* max-width: 400px; */
     margin: auto auto auto auto;
 }
 
@@ -739,7 +739,9 @@ h4 {
 }
 
 .black {
-    color: black;
+    color: black!important;
+    font-weight: bold!important;
+    margin-bottom: 40px;
 }
 
 .portfolio-thumb {
@@ -898,6 +900,7 @@ h4 {
 
 .col-sm-4 {
     color: black;
+    margin-top: 50px;
 }
 
 li > a {
