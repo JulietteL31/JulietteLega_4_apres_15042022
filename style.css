@@ -122,10 +122,6 @@ a:hover {
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
@@ -136,13 +132,16 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
+.d-bloc a .icon-sm,
+.d-bloc a .icon-md,
+.d-bloc a .icon-lg,
+.d-bloc a .icon-xl {
+    color: black;
+}
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
@@ -739,6 +738,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: black;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -775,17 +778,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -810,19 +813,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/img-jpg-compresse/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/img-jpg-compresse/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/img-jpg-compresse/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/img-jpg-compresse/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -888,6 +891,29 @@ h4 {
         padding-right: constant(safe-area-inset-right);
     }
 }
+
+
+
+
+
+.col-sm-4 {
+    color: black;
+}
+
+
+
+
+.pImg {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.p2 {
+    font-style: italic;
+}
+
+
+
 
 @media (max-width: 767px) {
     .page-container {
