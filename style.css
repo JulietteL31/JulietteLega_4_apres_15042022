@@ -900,6 +900,11 @@ h4 {
     color: black;
 }
 
+li > a {
+    color: black!important;
+    font-weight: bold!important;
+}
+
 
 
 
