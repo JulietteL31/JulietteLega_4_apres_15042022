@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/img-jpg-compresse/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -781,6 +781,14 @@ h4 {
 
 .tc-white {
     color: white!important;
+}
+
+.textPage2 {
+    color: black!important;
+}
+
+.textPage2-p {
+    font-size: 15px;
 }
 
 .btn-atomic-tangerine {
